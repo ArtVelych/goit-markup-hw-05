@@ -522,13 +522,13 @@ section {
     background-color: transparent;
     border: 1px solid #FFF;
     border-radius: 4px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    drop-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     color: #FFF;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.04em;
 }
 
 .footer-email::placeholder {
@@ -537,7 +537,7 @@ section {
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.04em;
 }
 
 .footer-form-button {
@@ -557,12 +557,12 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 16px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-form-icon {
     fill: rgba(255, 255, 255, 1);
+    margin-left: 16px;
 }
 
 .footer-form-button:hover,
