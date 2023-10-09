@@ -757,9 +757,6 @@ section {
 }
 
 .policy-text {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
     color: #8E8F99;
     font-size: 12px;
     font-style: normal;
@@ -773,20 +770,21 @@ section {
     text-decoration: underline;
     color: #4D5AE5;
     line-height: 1;
-    margin-left: 4px;
+    margin-left:;
 }
 
 .policy-text-tick {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
     width: 16px;
     height: 16px;
-    fill: transparent;
-    border: 1px solid rgba(46, 47, 66, 0.40);
+    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
-    margin-right: 8px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+    margin-right: 8px;
 }
 
 .user-privacy:checked+.policy-text>.policy-text-tick {
