@@ -675,12 +675,10 @@ section {
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.1;
+    line-height: 1.5;
     letter-spacing: 0.03em;
     border-radius: 4px;
     border: 1px solid rgba(46, 47, 66, 0.4);
-    padding-top: 11px;
-    padding-bottom: 11px;
     padding-left: 38px;
     padding-right: 16px;
     background-color: transparent;
